@@ -1,0 +1,9 @@
+<archetype>
+  <id>MarkovChain</id>
+  <sources>
+    <source>src/logic.stringcontent/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

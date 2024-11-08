@@ -6,10 +6,6 @@ import logic.probabilities.ProbabilitiesOfStationaryDistribution.ProbabilitiesOf
 
 public class Formulas {
 
-    public static void main(String[] args) {
-        System.out.println(systemFormulasA_B_C);
-    }
-
     public static final String formulasPxi_A = "P(Xi+1 = a) = p(a)*p(a|a) + p(b)*p(a|b) + p(c)*p(a|c)";
     public static final String formulasPxi_B = "P(Xi+1 = b) = p(a)*p(b|a) + p(b)*p(b|b) + p(c)*p(b|c)";
     public static final String formulasPxi_C = "P(Xi+1 = c) = p(a)*p(c|a) + p(b)*p(c|b) + p(c)*p(c|c)";
